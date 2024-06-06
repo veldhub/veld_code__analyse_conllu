@@ -2,24 +2,34 @@ x-veld:
   code:
     about:
       description: ""
-      topics: ""
+      topics:
+        - "NLP"
+        - "Machine learning"
+        - "tokenization"
+        - "lemmatization"
+        - "part of speech"
+        - "dependency parsing"
+        - "universal dependencies"
+        - "grammatical annotation"
 
     inputs:
-      volume: ""
-      file_formats: ""
-      contents: ""
+      volume: "/veld/input/"
+      file_formats: "conllu"
+      contents:
+        - "tokenized text"
+        - "lemmatized text"
+        - "part of speech of text"
+        - "universal dependencies of text"
+        - "grammatically annotated text"
+        - "linguistic data"
+        - "NLP data"
 
     outputs:
-      volume: ""
-      file_formats: ""
-      contents: ""
-
-    environment:
-      template_var:
-        description: ""
-        type: ""
-        optional: ""
-        default: ""
+      volume: "/veld/outputs/"
+      file_formats: "json"
+      contents: 
+        - "statistics"
+        - "NLP data"
 
 services:
   veld:
@@ -30,6 +40,4 @@ services:
     working_dir: /veld/code/
     volumes:
       - ./src:/veld/code/
-    environment:
-      template_var: ""
 
