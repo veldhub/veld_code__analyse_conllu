@@ -30,8 +30,6 @@ services:
     working_dir: /veld/code/
     volumes:
       - ./src:/veld/code/
-      - ./volumes/input/:/veld/input/
-      - ./volumes/output/:/veld/output/
     environment:
       template_var: ""
 
