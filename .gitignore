@@ -1,1 +1,6 @@
-**/.ipynb_checkpoints
+/src/**/.ipynb_checkpoints
+/src/**/.bash_history
+/src/**/.ipython
+/src/**/.jupyter
+/src/**/.local
+/src/**/.python_history
