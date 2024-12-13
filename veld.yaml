@@ -13,23 +13,15 @@ x-veld:
         - "grammatical annotation"
 
     inputs:
-      volume: "/veld/input/"
-      file_formats: "conllu"
-      contents:
-        - "tokenized text"
-        - "lemmatized text"
-        - "part of speech of text"
-        - "universal dependencies of text"
-        - "grammatically annotated text"
-        - "linguistic data"
-        - "NLP data"
+      - volume: "/veld/input/"
+        file_type: "conllu"
 
     outputs:
-      volume: "/veld/outputs/"
-      file_formats: "json"
-      contents: 
-        - "statistics"
-        - "NLP data"
+      - volume: "/veld/output/"
+        file_type: "json"
+        contents: 
+          - "statistics"
+          - "NLP statistics"
 
 services:
   veld:
