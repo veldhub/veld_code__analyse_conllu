@@ -1,6 +1,6 @@
 # veld_code__analyse_conllu
 
-**\*\*work in progress\*\***
+**\*work in progress\***
 
 This repo contains [code velds](https://zenodo.org/records/13322913) encapsulating creation of 
 statistical summary on conllu data. For now, these are:
