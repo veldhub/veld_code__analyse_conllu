@@ -3,7 +3,7 @@
 **\*work in progress\***
 
 This repo contains [code velds](https://zenodo.org/records/13322913) encapsulating creation of 
-statistical summary on conllu data. For now, these are:
+statistical summary on conllu data. For now, the observed features are:
 - count of total tokens 
 - count of total lemma
 - count of lemma normalized by token (to put the lemma in relation with token)
