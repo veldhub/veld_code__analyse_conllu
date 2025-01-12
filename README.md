@@ -29,12 +29,12 @@ within its respective yaml file and using the template folders provided in this 
 
 Then, run a veld with:
 ```
-docker compsoe -f <VELD_NAME>.yaml up
+docker compose -f <VELD_NAME>.yaml up
 ```
 
 e.g. 
 ```
-docker compsoe -f veld.yaml up
+docker compose -f veld.yaml up
 ```
 
 
