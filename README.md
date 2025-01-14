@@ -9,12 +9,8 @@ statistical summary on conllu data. For now, the observed features are:
 - count of lemma normalized by token (to put the lemma in relation with token)
 - count of occurrence of each (Universal Dependencies) part of speech tag
 
-Can be adapted to other use cases and made more flexible, but is primarily used in this chain veld: 
+The code can be adapted to other use cases but is primarily used in this chain veld: 
 https://github.com/veldhub/veld_chain__eltec_udpipe_inference
-
-## code velds
-
-- [./veld.yaml](./veld.yaml) : Launches a jupyter notebook providing statistical analysis
 
 ## requirements
 
@@ -25,16 +21,18 @@ https://github.com/veldhub/veld_chain__eltec_udpipe_inference
 ## how to use
 
 A code veld may be integrated into a chain veld, or used directly by adapting the configuration 
-within its respective yaml file and using the template folders provided in this repo.
+within its yaml file and using the template folders provided in this repo. Open the respective veld 
+yaml file for more information.
 
-Then, run a veld with:
+Run a veld with:
 ```
 docker compose -f <VELD_NAME>.yaml up
 ```
 
-e.g. 
+## contained code velds
+
+**[./veld.yaml](./veld.yaml)** : Launches a jupyter notebook providing statistical analysis
 ```
 docker compose -f veld.yaml up
 ```
-
 
